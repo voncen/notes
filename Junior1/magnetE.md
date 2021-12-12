@@ -34,6 +34,7 @@ $$
 \frac{\vec{r} \, \mathrm{d}S}{r^3}=\mathrm{d }\,\Omega
 $$
 
+$\vec{R}/R^3$的无旋性
 #### 矢量分析
 散度：源  
 无源：闭合曲线  （恒定电流只能在闭合曲线中通过）
@@ -176,7 +177,74 @@ $$
 1. 电流区域去掉
 2. 电流围着的面去掉
 
-分子电流---一对家乡磁荷组成的磁偶极子
+分子电流---一对假想磁荷组成的磁偶极子
 $\vec{J}=\mu_0\vec{M}$
 
 #### 4.电磁波的传播
+##### 波动方程
+无源  $\rho=0,\vec{J}=0$
+$c=\frac{1}{\sqrt{\mu_0\epsilon_0}}$
+$$
+\left\{\begin{array}{l}
+\nabla^{2} \vec{E}-\frac{1}{c^{2}} \frac{\partial^{2} \vec{E}}{\partial t^{2}}=0 \\
+\nabla^{2} \vec{B}-\frac{1}{c^{2}} \frac{\partial^{2} \vec{B}}{\partial t^{2}}=0
+\end{array}\right.
+$$
+
+束缚电荷以相同频率做正弦振动
+
+介质的色散：
+$$
+\epsilon=\epsilon(w),\mu=\mu(w)
+$$
+因此只考虑一定频率的电磁波
+
+##### 时谐电磁波
+$$
+\left\{\begin{array}{l}
+\vec{E}(\vec{x}, t)=\vec{E}(\vec{x}) e^{-i \omega t} \\
+\vec{B}(\vec{x}, t)=\vec{B}(\vec{x}) e^{-i \omega t}
+\end{array}\right.
+$$
+
+$$
+\left\{\begin{array}{l}
+\nabla \times \vec{E}=i \omega \mu \vec{H} \\
+\nabla \times \vec{H}=-i \omega \varepsilon \vec{E}
+\end{array}\right.\\ 
+\nabla \cdot \vec{E}=0 \\
+\nabla \cdot \vec{H}=0 \\
+$$
+
+###### 亥姆霍兹方程$k=w\sqrt{\mu\epsilon}$
+$$
+\nabla^2\vec{E}+k^2\vec{E}=0
+$$
+隐含条件
+$\nabla\cdot\vec{E}=0$
+亥姆霍兹方程每一个满足$\nabla\cdot\vec{E}=0$的解都嗲表一种可能存在的波模
+
+
+
+##### 平面电磁波
+
+$\vec{E}=\vec{E}_{0} e^{i(k z-\omega t)}$
+
+相速度：$v_{p}=\frac{\mathrm{d} z}{\mathrm{~d} t}=\frac{\omega}{k}=\frac{1}{\sqrt{\mu\epsilon}}=\frac{1}{\mu\mu_0\epsilon\epsilon_0}=\frac{c}{n}$
+
+$\vec{E}$的取向为电磁波的偏振方向
+$$
+\vec{k}\cdot\vec{E}=0\\
+\vec{B}=\sqrt{\mu\epsilon}\vec{e_k}\times\vec{E}\\
+\vec{k}\cdot\vec{B}=0
+$$
+于是
+$$
+|\frac{\vec{E}}{\vec{B}}|=\frac{1}{\sqrt{\mu\epsilon}}=v
+$$
+
+##### 波导
+不同的模式可能具有相同的截止波长（简并）。
+只有传输条件得到满足时，模才能传输。
+对于给定的波导，如果有 [公式] 个波导满足传输条件，则这 [公式] 个模可以同时在该波导中传输（多模传输）。
+#### 5.电磁波的辐射
