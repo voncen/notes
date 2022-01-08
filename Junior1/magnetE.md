@@ -1,3 +1,6 @@
+<div style='display: none'>
+考完试再来看这个实在是写得太幼稚了，也不想整理了，就这样封存起来吧
+</div>
 [https://zhuanlan.zhihu.com/p/58808753]()
 $\nabla$ 只对$r$ 作用，视$r'$ 为常数，故$\nabla r'=0$
 
@@ -232,7 +235,7 @@ $$
 $$
 隐含条件
 $\nabla\cdot\vec{E}=0$
-亥姆霍兹方程每一个满足$\nabla\cdot\vec{E}=0$的解都嗲表一种可能存在的波模
+亥姆霍兹方程每一个满足$\nabla\cdot\vec{E}=0$的解都代表一种可能存在的波模
 
 
 
