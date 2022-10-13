@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "64c2937e36b5448e",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcdcb88767f2e42a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "商世广.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86cbcf5e52631e54",
+    "type": "split",
+    "children": [
+      {
+        "id": "319aafcc9276ea90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b2493d84de57611",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e81b358eada290ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "52110dba71971140",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd8e074288174ba2",
+    "type": "split",
+    "children": [
+      {
+        "id": "123e314f12471b0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4229c0f2fcf2afd3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "商世广.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00608b8189277246",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "商世广.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f2343a51b45f1b3d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "66da557efc7f4c96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "商世广.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "fcdcb88767f2e42a",
+  "lastOpenFiles": [
+    "常见处理方法.md",
+    "商世广.md"
+  ]
+}
